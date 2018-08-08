@@ -1,0 +1,1 @@
+module.exports = [{"name":"bell","file":"bell.svg","codepoint":40,"xmlCode":"&#x28;"}];

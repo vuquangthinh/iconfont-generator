@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "iconfont-builder": "^2.3.2"
+  }
+}
