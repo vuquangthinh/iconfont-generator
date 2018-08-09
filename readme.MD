@@ -12,3 +12,5 @@ Ngon, bổ khi kết hợp với react-native-vector-icons.
 P/S: Cảm ơn a dev nước bạn đã share node_modules generate font dù ít star nhưng chưa thấy lỗi nào :D
 
 TODO: Đang vội nên chưa làm generate json glyphMaps xong.
+
+// add src file watcher: Auto generate dest

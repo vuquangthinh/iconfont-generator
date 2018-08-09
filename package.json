@@ -1,9 +1,14 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js -d ./dest -s ./src -f quangthinh -gl ./dest/quangthinh.json",
+    "monitor": "chokidar 'src/' -c 'yarn start'"
   },
   "dependencies": {
+    "argv-parser": "^0.1.4",
     "glob": "^7.1.2",
     "iconfont-builder": "^2.3.2"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0"
   }
 }
