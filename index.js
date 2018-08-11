@@ -82,15 +82,16 @@ glob(sourcePath + '/*.svg', function(err, files) {
   }
 
   // start codepoint from space -> ...
-  let codepoint = 40;
+  let codepoint = 39;
   const icons = files.map(file => {
     const filename = path.basename(file);
     const name = filename.substr(0, filename.length - '.svg'.length);
+    codepoint++;
 
     return {
       name,
       file: filename,
-      codepoint: codepoint++
+      codepoint: codepoint
     };
   });
 
